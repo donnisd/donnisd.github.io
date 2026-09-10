@@ -1,2 +1,0 @@
-# donnisd.github.io
-Personal 
