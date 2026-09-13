@@ -1,0 +1,134 @@
+.perf{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+}
+.amp{
+    color: purple;
+}
+.san{
+    color: white;
+}
+.con{
+    background: blue;
+    position: relative; bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+}
+.dan{
+    margin-right: 100px;
+    position: relative; top: 10px;
+}
+.intro{
+    position: relative; top: 47px;
+    margin-right: 977px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    padding: 10px 10px;
+}
+.pass{
+    position: relative; top: 40px;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+.expl{
+    margin-bottom: 50px;
+    position: relative; top: 30px;
+}
+.examp{
+    background: blue;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+}
+.exmp{
+    background: black;
+    color: white;
+    margin-left: 17px;
+    padding: 3px 3px;
+    border-radius: 10px;
+}
+.abt{
+    background: black;
+    border-radius: 20px;
+    padding: 17px 17px;
+    border-color: purple;
+    margin-bottom: 57px;
+}
+.refer{
+    margin-bottom: 20px;
+}
+.fron{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border-color: navy;
+    padding: 7px 57px 7px 27px;
+}
+.comp{
+    font-size: 47px;
+    margin-right: 157px;
+    position: relative; top: 10px;
+}
+.tend{
+    margin-left: 47px;
+    position: relative; bottom: 47px;
+}
+.bac{
+    background: black;
+    margin-left: 13px;
+    border-radius: 10px;
+    border-color: navy;
+    padding: 7px 57px 7px 27px;
+}
+.camp{
+    color: white;
+    font-size: 50px;
+    margin-right: 157px;
+    position: relative; top: 10px;
+}
+.pron{
+    margin-left: 47px;
+    position: relative; bottom: 50px;
+}
+
+@media (max-width: 770px) {
+    .perf{
+        width: 80px;
+        height: auto;
+    }
+    .dan{
+        margin: 0;
+        position: relative; top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .dan a{
+        margin: 8px 10px;
+        font-size: 20px;
+    }
+    .con{
+        position: static;
+        display: block;
+        margin: 15px auto;
+    }
+    .intro{
+        position: static;
+        display: block;
+        margin: 100px 16px 0;
+        padding: 10px 12px;
+        max-width: 180px;
+    }
+}
