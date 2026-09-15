@@ -132,4 +132,7 @@ h1{
     .pass{
         position: static;
     }
+    .bac{
+        position: relative; left: 107px;
+    }
 }
