@@ -61,8 +61,9 @@ h1{
     background: black;
     border-radius: 20px;
     padding: 17px 17px;
-    border-color: purple;
+    border: 1px solid rgba(128, 0, 128);
     margin-bottom: 57px;
+    box-shadow: 0 0 700px rgba(128, 0, 128);
 }
 .refer{
     margin-bottom: 20px;
