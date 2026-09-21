@@ -1,0 +1,51 @@
+p{
+    color: white;
+}
+.tan{
+    float: left;
+    position: relative; right: 327px;
+    top: 107px;
+}
+.fan{
+    float: left;
+    position: relative; top: 107px;
+    right: 237px;
+}
+h1{
+    color: white;
+}
+.pan{
+    color: silver
+}
+.pan:empty::before{
+    content: attr(data-placeholder);
+}
+a{
+    text-decoration: none;
+}
+.second{
+    position: relative; top: 35px;
+    right: 105px;
+}
+.third{
+    position: relative; top: 65px;
+    right: 210px;
+}
+.all{
+    position: relative; top: 30px;
+    left: 620px;
+}
+.forth{
+    position: absolute; top: 107px;
+    left: 30px;
+}
+.pri{
+    position: relative; bottom: 13px;
+    left: 3px;
+}
+
+@media (max-width: 600px) {
+    .all{
+        left: 147px;
+    }
+}
