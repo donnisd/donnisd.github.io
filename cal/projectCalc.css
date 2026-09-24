@@ -25,9 +25,6 @@ h1{
 .pan:empty::before{
     content: attr(data-placeholder);
 }
-a{
-    text-decoration: none;
-}
 .second{
     position: relative; top: 35px;
     right: 105px;
