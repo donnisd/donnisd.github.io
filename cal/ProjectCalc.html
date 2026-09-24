@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="projectCalc.css">
+</head>
+<body style="background-color: black;">
+    <h1 style="text-align: center;"> This is a simple <span style="color: blue;"> Calculator </span> Website </h1>
+    <p> <b> You can calculate anything here </b> <br>
+        <i> A project by <span style="color: navy"> <a href="https://donnisd.github.io" target="_blank"> DonnisD. </a> </span> </i> </p>
+        <div class="together">
+        <p style="text-align: center; outline: none;" class="pan" contenteditable="true" data-placeholder="Type your calculations here"></p>
+
+        <div class="all">
+            <button type="button" onclick="one()" class="on"> 1 </button>
+            <button type="button" onclick="two()" class="tw"> 2 </button>
+            <button type="button" onclick="three()" class="thr"> 3 </button> 
+            <button type="button" onclick="four()" class="fou"> 4 </button>
+
+                <button type="button" onclick="five()" class="fiv"> 5 </button>
+                <button type="button" onclick="six()"> 6 </button>
+                <button type="button" onclick="seven()"> 7 </button>
+                <button type="button" onclick="eight()"> 8 </button>
+
+                    <button type="button" onclick="plus()"> + </button>
+                    <button type="button" onclick="nine()"> 9 </button>
+                    <button type="button" onclick="zero()"> 0 </button> 
+                    <button type="button" onclick="minus()"> - </button> 
+
+            <button type="button" onclick="back()"> <b> C </b> </button>
+            <button type="button" onclick="calc()"> = </button> 
+
+                <button type="button" onclick="multi()"> * </button>
+                <button type="button" onclick="divide()"> / </button> </div> </div> 
+
+
+
+
+
+        <script type="text/javascript">
+            let originalPanContent = document.querySelector(".pan").innerText;
+
+            function calc() {
+                const equation = document.querySelector(".pan").innerText;
+
+                const answer = eval(equation);
+
+                document.querySelector(".pan").innerText = answer;
+            }
+
+            function back() {
+                document.querySelector(".pan").innerText = originalPanContent;
+            }
+            
+            // function sand() {
+            const fruits = ["Apple", "Mango", "Pineapple"]
+            fruits.push("Orange")
+
+           //  alert((fruits[0]));
+            
+
+            function one() {
+                document.querySelector(".pan").innerText += "1"
+            }
+            function two() {
+                document.querySelector(".pan").innerText += "2"
+            }
+            function three() {
+                document.querySelector(".pan").innerText += "3"
+            }
+            function four() {
+                document.querySelector(".pan").innerText += "4"
+            }
+            function five() {
+                document.querySelector(".pan").innerText += "5"
+            }
+            function six() {
+                document.querySelector(".pan").innerText += "6"
+            }
+            function seven() {
+                document.querySelector(".pan").innerText += "7"
+            }
+            function eight() {
+                document.querySelector(".pan").innerText += "8"
+            }
+            function nine() {
+                document.querySelector(".pan").innerText += "9"
+            }
+            function zero() {
+                document.querySelector(".pan").innerText += "0"
+            }
+            function plus() {
+                document.querySelector(".pan").innerText += "+"
+            }
+            function minus() {
+                document.querySelector(".pan").innerText += "-"
+            }
+            function divide() {
+                document.querySelector(".pan").innerText += "/"
+            }
+            function multi() {
+                document.querySelector(".pan").innerText += "*"
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
+</body>
+</html>
