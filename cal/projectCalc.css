@@ -1,0 +1,86 @@
+p{
+    color: white;
+}
+.tan{
+    float: left;
+    position: relative; right: 327px;
+    top: 107px;
+}
+.fan{
+    float: left;
+    position: relative; top: 107px;
+    right: 237px;
+}
+h1{
+    color: white;
+}
+.pan{
+    color: silver;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 5px 1px 5px 1px;
+    box-shadow: 0 0 100px blue;
+    position: relative; bottom: 10px;
+}
+.pan:empty::before{
+    content: attr(data-placeholder);
+}
+a{
+    text-decoration: none;
+}
+.second{
+    position: relative; top: 35px;
+    right: 105px;
+}
+.third{
+    position: relative; top: 65px;
+    right: 210px;
+}
+.all {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative; top: 10px;
+}
+.all button{
+    min-height: 60px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    font-size: 22px;
+}
+.all button:active {
+    transform: scale(0.95);
+}
+.forth{
+    position: absolute; top: 107px;
+    left: 30px;
+}
+.pri{
+    position: relative; bottom: 13px;
+    left: 3px;
+}
+.together{
+    width: min(90%, 400px);
+    margin: 30px auto;
+}
+
+@media (max-width: 600px) {
+    .together{
+        width: 92%;
+        margin: 25px auto;
+    }
+    .pan{
+        min-height: 55px;
+        font-size: 20px;
+    }
+    .all{
+        gap: 7px;
+    }
+    .all button{
+        min-height: 55px;
+        font-size: 20px;
+    }
+}
