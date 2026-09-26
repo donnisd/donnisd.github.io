@@ -63,6 +63,11 @@ h1{
     width: min(90%, 400px);
     margin: 30px auto;
 }
+footer{
+    color: white;
+    text-align: center;
+    position: relative; top: 67px;
+}
 
 @media (max-width: 600px) {
     .together{
