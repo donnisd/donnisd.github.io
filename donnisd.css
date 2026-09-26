@@ -169,6 +169,7 @@ h1{
     }
     .con{
         bottom: 112px;
+        left: 2px;
     }
     .intro{
         position: static;
