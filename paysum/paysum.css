@@ -64,7 +64,6 @@ body{
 .pays{
     color: rgba(255, 255, 255);
     position: relative; left: 22px;
-    bottom: px;
 }
 .ays{
     font-size: 24px;
@@ -92,13 +91,14 @@ body{
     font-size: 30px;
     cursor: pointer;
     float: right;
-    position: relative; bottom: 47px;
+    position: relative; bottom: 49px;
 }
 .goin{
     display: none;
 }
 .pays{
     left: -10px;
+    top: 5px;
 }
 .ays{
     font-size: 17px;
@@ -109,6 +109,10 @@ body{
 .logo{
     left: -13px;
     width: 50px;
+    top: 2px
+}
+.hmu{
+    position: relative; top: 3px;
 }
 
 
