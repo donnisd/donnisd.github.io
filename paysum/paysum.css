@@ -91,7 +91,7 @@ body{
     font-size: 30px;
     cursor: pointer;
     float: right;
-    position: relative; bottom: 49px;
+    position: relative; bottom: 52px;
 }
 .goin{
     display: none;
@@ -113,6 +113,9 @@ body{
 }
 .hmu{
     position: relative; top: 3px;
+}
+.fsr{
+    text-align: center;
 }
 
 
