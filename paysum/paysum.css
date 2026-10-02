@@ -94,10 +94,13 @@ body{
     float: right;
 }
 .logo{
-    left: 8px;
+    left: 2px;
 }
 .goin{
     display: none;
+}
+.pays{
+    left: 17px;
 }
 
 
