@@ -137,7 +137,8 @@ body{
     position: relative; top: 3px;
 }
 .fsr{
-    left: -10px;
+    align-items: center;
+    align-content: center;
 }
 
 
