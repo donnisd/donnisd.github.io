@@ -92,6 +92,7 @@ body{
     font-size: 30px;
     cursor: pointer;
     float: right;
+    position: relative; bottom: 27px;
 }
 .goin{
     display: none;
