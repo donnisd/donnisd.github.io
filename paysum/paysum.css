@@ -92,16 +92,16 @@ body{
     font-size: 30px;
     cursor: pointer;
     float: right;
-    position: relative; bottom: 27px;
+    position: relative; bottom: 47px;
 }
 .goin{
     display: none;
 }
 .pays{
-    left: -6px;
+    left: -10px;
 }
 .ays{
-    font-size: 20px;
+    font-size: 17px;
 }
 .summ{
     font-size: 6px;
