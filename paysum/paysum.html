@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paysum </title>
+    <link rel="stylesheet" href="paysum.css">
+    <link rel="icon" href="photo_2026-10-01_14-25-34.jpg">
+</head>
+<body>
+    <div style="background: rgb(0, 0, 100)" class="every">
+    <div style="float: left;">
+        <a href="#">
+            <img src="photo_2026-10-02_08-08-01.jpg" class="logo"> </a> </div>
+
+            <div style="text-align: left;" class="pays"> <span class="ays"> paysum </span> <br>
+               <span class="summ"> BILL PAYMENTS MADE EASY </span> </div>
+
+    <div align="center" class="head">
+        <a href="#" class="hmu"> Home </a>
+        <a href="#" class="hme"> Services </a>
+        <a href="#" class="hme"> About </a>
+        <a href="#" class="hme"> Help </a> </div>
+    <div style="float: right;" class="goin">
+        <button type="button" onclick="log()" class="inn"> Login </button>
+        <button type="button" onclick="sign()" class="upp"> Sign up </button> </div> 
+                      <div class="hamb">  ☰  </div> </div>
+
+                         
+
+                 <div align="center">
+                        <button type="button" class="fsr"> Fast → Secure → Reliable </button> </div>
+
+         
+         <h1 style="text-align: center;" class="know"> <b> Pay All Your <span style="color: blue;"> Bills </span> In And Outside <br>
+            <span class="nig"> Nigeria </span> </b> </h1> 
+
+                <p style="text-align: center;" class="expl"> Electricity, Airtime, Data, Cable, TV, Water, Educational, Air BNB, and more <br>
+                    All in one place. <span style="color: blue;"> Quick </span>, <span style="color: blue;"> safe </span> and <span style="color: blue;"> easy </span> . <br>
+                    All our services comes at a very cheap rate. The cheapest anywhere, accessible to <span class="ryone"> <b> Everyone. </b> </span>
+                     <div align="center">
+                        <button class="startt"> Get Started → </button>
+
+
+
+
+
+
+
+        <script>
+            function log() {
+                alert("Coming soon...")
+            }
+
+            function sign() {
+                alert("Coming soon...")
+            }
+
+            let bond = document.querySelector(".hamb");
+
+            let head = document.querySelector(".head");
+
+            let ent = document.querySelector(".goin");
+
+            bond.onclick = function() {
+                
+            if (head.style.display === "block") {
+                head.style.display = "none";
+                ent.style.display = none
+                bond.innerHTML = "☰";
+
+            }else {
+                head.style.display = "block";
+                ent.style.display = "block";
+                bond.innerHTML = "X";
+
+            }
+        }
+
+            const ryonet = "Everyone";
+            const ryonee = document.querySelector(".ryone");
+
+            let i = 0;
+
+            function typeText() {
+                ryonee.textContent = "";
+
+                i = 0;
+
+                const typing = setInterval(() => {
+                    ryonee.textContent += ryonet[i];
+
+                    i++;
+
+                    if (i === ryonet.length) {
+                        clearInterval(typing);
+                    }
+                }, 150);
+
+            }
+            setInterval(typeText, 4000);
+
+            typeText();
+
+
+
+
+            </script>
+
+
+
+
+</body>
+</html>
