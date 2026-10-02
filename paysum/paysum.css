@@ -97,7 +97,7 @@ body{
     display: none;
 }
 .pays{
-    left: 1px;
+    left: -2px;
 }
 .ays{
     font-size: 20px;
@@ -106,7 +106,7 @@ body{
     font-size: 6px;
 }
 .logo{
-    left: -10px;
+    left: -13px;
 }
 
 
