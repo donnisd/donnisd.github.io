@@ -1,0 +1,99 @@
+body{
+    color: black;
+    background: silver;
+}
+.logo{
+    height: 40px;
+    width: 67px;
+    position: relative; left: 13px;
+    top: 6px;
+}
+.every{
+    padding: 20px;
+    border-radius: 20px;
+}
+.inn{
+    position: relative; bottom: 27px;
+    background: #000080;
+    position: relative; right: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
+}
+.upp{
+    position: relative; bottom: 27px;
+    background: #ffa500;
+    padding: 7px;
+    border-radius: 5px;
+}
+.hme{
+    color: rgba(255, 255, 255);
+    margin: 30px;
+    text-decoration: none;
+}
+.hmu{
+    text-decoration: none;
+    color: #ffa500;
+}
+.logo{
+    position: relative; bottom: 17px;
+}
+.sep{
+    position: relative; bottom: 6px;
+    left: 57px;
+}
+.fsr{
+    position: relative; top: 40px;
+    left: 44px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #000080;
+    box-shadow: 0 0 87px #000080,
+               0 0 70px #000080,
+               0 0 75px #000080;
+    cursor: pointer;
+    background: #000080;
+    color: rgba(255, 255, 255);
+}
+.know{
+    position: relative; top: 105px;
+    left: 10px;
+    font-size: 49px;
+}
+.pays{
+    color: rgba(255, 255, 255);
+    position: relative; left: 22px;
+    bottom: px;
+}
+.ays{
+    font-size: 24px;
+}
+.summ{
+    font-size: 7px;
+}
+.head{
+    position: relative; bottom: 28px;
+}
+.goin{
+    position: relative; bottom: 30px;
+}
+.hamb{
+    color: rgba(255, 255, 255);
+    display: none;
+}
+
+@media (max-width:700px) {
+.hme{
+    display: none;
+}
+.hamb{
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+}
