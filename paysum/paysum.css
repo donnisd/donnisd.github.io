@@ -247,6 +247,7 @@ body{
 
         margin: 20px auto;
         position: relative; top: 200px;
+        left: 50px;
     }
     .services img {
         width: 100px;
