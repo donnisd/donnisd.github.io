@@ -187,7 +187,7 @@ body{
         cursor: pointer;
         float: right;
         position: relative;
-        bottom: 27px;
+        bottom: 39px;
     }
     .fsr {
         top: 25px;
@@ -246,7 +246,7 @@ body{
         width: max-content;
 
         margin: 20px auto;
-        position: relative; top: 40px;
+        position: relative; top: 30px;
         left: 45px;
     }
     .services img {
