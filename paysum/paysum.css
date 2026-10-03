@@ -246,8 +246,8 @@ body{
         width: max-content;
 
         margin: 20px auto;
-        position: relative; top: 100px;
-        left: 35px;
+        position: relative; top: 60px;
+        left: 40px;
     }
     .services img {
         width: 100px;
