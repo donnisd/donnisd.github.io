@@ -500,9 +500,10 @@ body{
         grid-template-columns: repeat(1, 100px);
         gap: 12px;
         justify-content: center;
+        align-items: center;
     }
     .topser{
-        position: relative; right: 22px;
+        position: relative; right: 24px;
     }
     .assure button{
         height: 300px;
