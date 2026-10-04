@@ -503,6 +503,10 @@ body{
     .topser{
         position: relative; right: 12px;
     }
+    .assure button{
+        height: 250px;
+        width:  250px;
+    }
 
 }
 
