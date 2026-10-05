@@ -1,0 +1,521 @@
+body{
+    color: black;
+    background: silver;
+}
+.logo{
+    height: 40px;
+    width: 67px;
+    position: relative; left: 13px;
+    top: 6px;
+}
+.every{
+    padding: 20px;
+    border-radius: 20px;
+}
+.inn{
+    position: relative; bottom: 27px;
+    background: #000080;
+    position: relative; right: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
+}
+.upp{
+    position: relative; bottom: 27px;
+    background: #ffa500;
+    padding: 7px;
+    border-radius: 5px;
+}
+.hme{
+    color: rgba(255, 255, 255);
+    margin: 30px;
+    text-decoration: none;
+}
+.hmu{
+    text-decoration: none;
+    color: #ffa500;
+}
+.logo{
+    position: relative; bottom: 17px;
+    width: 50px;
+}
+.sep{
+    position: relative; bottom: 47px;
+    left: px;
+}
+.fsr{
+    position: relative; top: 40px;
+    left: 44px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #000080;
+    box-shadow: 0 0 87px #000080,
+               0 0 70px #000080,
+               0 0 75px #000080;
+    cursor: pointer;
+    background: #000080;
+    color: rgba(255, 255, 255);
+}
+.know{
+    position: relative; top: 105px;
+    left: 10px;
+    font-size: 49px;
+}
+.pays{
+    color: rgba(255, 255, 255);
+    position: relative; left: 22px;
+}
+.ays{
+    font-size: 24px;
+}
+.summ{
+    font-size: 7px;
+}
+.head{
+    position: relative; bottom: 28px;
+}
+.goin{
+    position: relative; bottom: 30px;
+}
+.hamb{
+    color: rgba(255, 255, 255);
+    display: none;
+}
+.knoweth{
+    display: none;
+}
+.expl{
+    position: relative; top: 85px;
+}
+.startt{
+    background: #ffa500;
+    position: relative; top: 95px;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid #ffa500;
+    box-shadow: 0 0 30px #ffa500;
+}
+.ryone{
+    color: blue;
+}
+.pict{
+    height: 650px;
+    width: 650px;
+    position: relative; top: 190px;
+    right: 207px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.access{
+    text-align: right;
+    position: relative; bottom: 420px;
+    right: 77px;
+    font-size: 25px;
+    
+}
+.services{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: end;
+    margin-left: auto;
+    width: max-content;
+    position: relative; bottom: 402px;
+    right: 55px;
+}
+.services img{
+    height: 80px;
+    width: 105px;
+    object-fit: contain;
+
+    opacity: 0;
+    transform: translateY(30px);
+}
+.services img.show {
+    opacity: 1;
+    transform: translateY(0);
+     
+    transition: opacity 0.6s ease, 
+                          transform 0.6s ease;
+}
+.reliance{
+    position: relative; bottom: 155px;
+}
+.sps{
+    background: #ADD8E6;
+    padding: 7px 57px 7px 27px;
+    border: none;
+}
+.sec{
+    font-size: 70px;
+    position: relative; right: 77px;
+    top: 19px;
+    color: green;
+}
+.ure{
+    position: relative; left: 30px;
+    bottom: 40px;
+    font-size: 17px;
+}
+.safewi{
+    color: grey;
+    font-weight: 300;
+}
+.eau{
+    background: pink;
+    padding: 10px 97px 7px 27px;
+    border: none;
+}
+.inst{
+    font-size: 70px;
+    position: relative; right: 50px;
+    top: 27px;
+}
+.ent{
+    position: relative; left: 52px;
+    bottom: 47px;
+    font-size: 17px;
+}
+.bpis{
+    font-weight: 300;
+    color: grey;
+}
+.assure{
+    display: flex;
+    gap: 19px;
+    position: relative; bottom: 137px;
+    left: 77px;
+}
+.cyp{
+    background: green;
+    padding: 8px 97px 8px 27px;
+    border: none;
+}
+.calll{
+    font-size: 50px;
+    position: relative; right: 60px;
+    top: 20px;
+}
+.assist{
+    position: relative; left: 37px;
+    bottom: 27px;
+    font-size: 17px;
+}
+.wahth{
+    color: grey;
+}
+.ouser{
+    color: #000080;
+    text-align: left;
+    position: relative; bottom: 24px;
+    left: 47px;
+}
+.paybiop{
+    text-align: left;
+    position: relative; bottom: 35px; 
+    left: 45px;
+}
+.topser{
+    background:
+    padding: 20px;
+}
+.topserexp{
+    text-align: left;
+    position: relative; left: 45px;
+    bottom: 41px;
+}
+.sess{
+    color: #000080;
+    text-align: left;
+    position: relative; left: 45px;
+    bottom: 37px;
+}
+.electr{
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(blue, green, orange);
+}
+.icity{
+    font-size: 50px;
+}
+.airti{
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(blue, green, orange);
+}
+.imee{
+    font-size: 50px;
+    position: relative; right: 5px;
+}
+.dat{
+    padding: 30px 127px 20px 20px;
+    border-radius: 20px;
+    background: linear-gradient(blue, green, orange);
+}
+.ataa{
+    font-size: 50px;
+    position: relative; left: 55px;
+    bottom: 10px;
+}
+.anet{
+    position: relative; left: 55px;
+    bottom: 10px;
+}
+.catv{
+    padding: 15px 61px 20px 20px;
+    background: linear-gradient(orange, green, blue);
+    border-radius: 20px;
+}
+.ablet{
+    font-size: 50px;
+    position: relative; left: 17px;
+}
+.dgs{
+    position: relative; left: 20px;
+}
+.watt{
+    padding: 30px 44px 20px 20px;
+    background: linear-gradient(orange, green, blue);
+    border-radius: 20px;
+}
+.drop{
+    font-size: 50px;
+    position: relative; bottom: 20px;
+    left: 10px;
+}
+.tarr{
+    position: relative; left: 10px;
+    bottom: 20px;
+}
+.innt{
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(orange, green, blue);
+}
+.globe{
+    font-size: 50px;
+}
+.educ{
+    padding: 30px 41px 20px 20px;
+    border-radius: 20px;
+    background: linear-gradient(blue, green, orange);
+}
+.cation{
+    font-size: 61px;
+    position: relative; bottom: 10px;
+}
+.gradd{
+    position: relative; left: 10px;
+    bottom: 20px;
+}
+.airr{
+    background: linear-gradient(blue, green, orange);
+    padding: 40px 40px 20px 20px;
+    border-radius: 20px;
+}
+.bnbb{
+    font-size: 50px;
+    position: relative; bottom: 20px;
+}
+.hotl{
+    position: relative; left: 10px;
+    bottom: 25px;
+}
+.moree{
+    background: linear-gradient(blue, green, orange);
+    padding: 25px 55px 20px 55px;
+    border-radius: 20px;
+}
+.reee{
+    font-size: 50px;
+    position: relative; bottom: 10px;
+}
+.option{
+    position: relative; bottom: 20px;
+}
+.eadcwiem{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+.eadcwiem button{
+    height: 300px;
+    width: 300px;
+    animation: flowDown 6s linear infinite;
+    background-size: 100% 300%;
+}
+.eadcwiem button:nth-child(1),
+.eadcwiem button:nth-child(2),
+.eadcwiem button:nth-child(3) {
+    animation-delay: 0s;
+}
+
+.eadcwiem button:nth-child(4),
+.eadcwiem button:nth-child(5),
+.eadcwiem button:nth-child(6) {
+    animation-delay: 3s;
+}
+
+.eadcwiem button:nth-child(7),
+.eadcwiem button:nth-child(8),
+.eadcwiem button:nth-child(9) {
+    animation-delay: 6s;
+}
+@keyframes flowDown {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    33.33% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+
+@media (max-width:700px) {
+.head{
+    display: none;
+}    
+    .every {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 45px;
+        height: 40px;
+        left: -5px;
+        top: 0;
+    }
+
+    .pays {
+        left: 5px;
+        top: 0;
+    }
+
+    .ays {
+        font-size: 18px;
+    }
+
+    .summ {
+        font-size: 6px;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .hme {
+        display: block;
+        margin: 20px;
+    }
+
+    .goin {
+        display: none;
+    }
+
+    .hamb {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+        float: right;
+        position: relative;
+        bottom: 44px;
+    }
+    .fsr {
+        top: 25px;
+        left: 0;
+        padding: 12px;
+        font-size: 12px;
+    }
+    .know {
+        top: 60px;
+        left: 0;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .expl {
+        top: 45px;
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .startt {
+        top: 55px;
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    .pict {
+        width: 90vw;
+        height: 90vw;
+        max-width: 450px;
+        max-height: 450px;
+
+        top: 100px;
+        right: 0;
+
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .access {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        right: 0;
+
+        margin-top: 130px;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .services {
+        display: grid;
+
+        grid-template-columns: repeat(3, 100px);
+
+        gap: 15px;
+
+        justify-content: center;
+
+        width: max-content;
+
+        margin: 10px auto;
+        position: relative; top: 30px;
+        left: 45px;
+    }
+    .services img {
+        width: 100px;
+        height: 80px;
+        object-fit: contain;
+    }
+    .eadcwiem{
+        grid-template-columns: repeat(1, 300px);
+        position: relative; top: 55px;
+    }
+    .assure{
+        display: grid; 
+        grid-template-columns: repeat(1, 100px);
+        gap: 12px;
+        align-items: center;
+        position: relative; top: 34px;
+        right: 34px;
+    }
+    .assure button{
+        height: 300px;
+        width:  300px;
+    }
+    .topser{
+        position: relative; right: 24px;
+        top: 55px;
+    }
+
+}
+
+
+
+
+
