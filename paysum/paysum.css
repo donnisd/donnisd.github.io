@@ -484,8 +484,7 @@ body{
         width: max-content;
 
         margin: 10px auto;
-        position: relative; top: 30px;
-        left: 45px;
+        top: 30px;
     }
     .services img {
         width: 100px;
