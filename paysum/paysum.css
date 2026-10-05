@@ -494,15 +494,15 @@ body{
     }
     .eadcwiem{
         grid-template-columns: repeat(1, 300px);
-        position: relative; top: 55px;
+        position: relative; top: 65px;
     }
     .assure{
         display: grid; 
         grid-template-columns: repeat(1, 100px);
         gap: 12px;
         align-items: center;
-        position: relative; top: 34px;
-        right: 34px;
+        position: relative; top: 44px;
+        right: 44px;
     }
     .assure button{
         height: 300px;
@@ -510,12 +510,14 @@ body{
     }
     .topser{
         position: relative; right: 24px;
-        top: 55px;
+        top: 65px;
     }
     .alltogeth{
-        width: 92%
+        width: 92%;
         margin: 26px auto;
     }
+    .sep{
+        top: 37px;
 
 }
 
