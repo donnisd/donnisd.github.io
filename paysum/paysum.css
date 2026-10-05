@@ -512,6 +512,10 @@ body{
         position: relative; right: 24px;
         top: 55px;
     }
+    .alltogeth{
+        width: 92%
+        margin: 26px auto;
+    }
 
 }
 
