@@ -661,7 +661,7 @@ footer{
     .versions{
         display: grid;
         justify-content: center;
-        gap: 10px;
+        gap: 40px;
         grid-template-columns: repeat(1fr, 1fr);
         position: relative; right: 10px;
         top: 107px;
