@@ -660,6 +660,12 @@ a{
     .android{
         display: static;
     }
+    .apple{
+        grid-column: 1;
+    }
+    .android{
+        grid-column: 2;
+    }
 
 
 
