@@ -650,6 +650,16 @@ a{
         justify-content: center;
         gap: 10px;
     }
+    .versions{
+        jutify-content: center;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+    }
+    .apple,
+    .android{
+        display: static;
+    }
 
 
 
