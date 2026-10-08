@@ -476,6 +476,7 @@ a{
 }
 .footer{
     color: rgba(255, 255, 255);
+    text-align: center;
 }
 .cwl{
     color: rgba(255, 255, 255);
