@@ -474,6 +474,12 @@ a{
     height: 20px;
     border-radius: 20px;
 }
+.footer{
+    color: rgba(255, 255, 255);
+}
+.cwl{
+    color: rgba(255, 255, 255);
+}
 
 
 @media (max-width:700px) {
