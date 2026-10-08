@@ -617,6 +617,10 @@ a{
     .sep{
         top: 47px;
     }
+    .eeend{
+        display: grid;
+        grid-template-columns: repeat(2, 30px);
+    }
 
 }
 
