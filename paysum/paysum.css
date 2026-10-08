@@ -599,7 +599,7 @@ a{
         grid-template-columns: repeat(1, 100px);
         gap: 12px;
         align-items: center;
-        position: relative; top: 44px;
+        position: relative; top: 34px;
         left: 74px;
     }
     .assure button{
