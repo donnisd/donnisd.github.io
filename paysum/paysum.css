@@ -655,7 +655,7 @@ a{
         gap: 10px;
         display: grid;
         grid-template-columns: repeat(1fr, 1fr);
-        position: relative; right: 5px;
+        position: relative; right: 10px;
     }
     .apple,
     .android{
