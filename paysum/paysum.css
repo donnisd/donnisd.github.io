@@ -662,9 +662,11 @@ a{
     }
     .apple{
         grid-column: 1;
+        padding: 15px 35px 2px 15px;
     }
     .android{
         grid-column: 2;
+        padding: 15px 35px 2px 15px;
     }
 
 
