@@ -477,7 +477,6 @@ a{
 footer{
     color: rgba(255, 255, 255);
     text-align: center;
-    white-space: nowrap;
 }
 .cwl{
     color: rgba(255, 255, 255);
