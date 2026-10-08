@@ -676,6 +676,10 @@ footer{
         grid-column: 2;
         padding: 15px 35px 2px 15px;
     }
+    footer{
+        position: relative; left: 77px;
+        white-space: nowrap;
+    }
 
 
 
