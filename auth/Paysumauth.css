@@ -1,0 +1,199 @@
+.lefth{
+    background: rgb(0, 0, 100);
+    height: 1000px;
+    width: 500px;
+    color: rgba(255, 255, 255);
+}
+.logo{
+    height: 100px;
+    position: relative; top: 47px;
+    left: 197px;
+}
+.headleft{
+    text-align: center;
+    position: relative; top: 8px;
+    font-size: 51px;
+}
+.subhdleft{
+    text-align: center;
+    position: relative; bottom: 20px;
+    color: grey;
+    font-size: 12px;
+    gap: 10px;
+}
+.pyb{
+    position: relative; left: 30px;
+}
+.serves{
+    position: relative; left: 35px;
+}
+.sec{
+    background: blue;
+    width: 5%;
+    position: relative; left: 40px;
+    top: 20px;
+    padding: 1px 12px 1px 15px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.guar{
+    position: relative; right: 7px;
+    bottom: 2px;
+}
+.ise{
+    text-align: center;
+    position: relative; right: 97px;
+    bottom: 48px;
+}
+.ytaap{
+    position: relative; left: 10px;
+    bottom: 10px;
+    font-size: 14px;
+}
+.apd{
+    position: relative; right: 11px;
+}
+.paym{
+    background: blue;
+    width: 5%;
+    position: relative; left: 35px;
+    bottom: 30px;
+    padding: 5px 0px 5px 30px;
+    border-radius: 10px;
+}
+.elec{
+    color: rgba(255, 255, 255);
+    font-size: 30px;
+    position: relative; right: 22px;
+}
+.igi{
+    text-align: center;
+    position: relative; bottom: 97px;
+    right: 87px;
+}
+.gtd{
+    position: relative; right: 17px;
+    bottom: 10px;
+    font-size: 14px;
+}
+.iss{
+    position: relative; right: 12px;
+}
+.supp{
+    position: relative; bottom: 67px;
+    left: 37px;
+    background: blue;
+    width: 5%;
+    padding: 5px 0px 5px 30px;
+    border-radius: 10px;
+}
+.hands{
+    font-size: 30px;
+    position: relative; right: 22px;
+    bottom: 3px;
+}
+.swt{
+    position: relative; bottom: 135px;
+    left: 107px;
+}
+.wah{
+    position: relative; bottom: 10px;
+    font-size: 14px;
+}
+.showw{
+    height: 250px;
+    position: relative; bottom: 187px;
+    left: 237px;
+    width: 150px;
+    transform: rotate(10deg);
+    background-color: transparent;
+}
+.light{
+    position: relative; bottom: 390px;
+    left: 227px;
+    font-size: 30px;
+}
+.internet{
+    font-size: 20px;
+    position: relative; bottom: 380px;
+    left: 207px;
+}
+.water{
+    font-size: 25px;
+    position: relative; bottom: 380px;
+    left: 237px;
+}
+.tvv{
+    font-size: 25px;
+    position: relative; bottom: 400px;
+    left: 177px;
+}
+.phone{
+    font-size: 25px;
+    position: relative; bottom: 400px;
+    left: 227px;
+}
+.plane{
+    font-size: 25px;
+    position: relative; bottom: 550px;
+    left: 177px;
+}
+.eduu{
+    font-size: 30px;
+    position: relative; bottom: 545px;
+    left: 155px;
+}
+.lodge{
+    font-size: 25px;
+    position: relative; bottom: 500px;
+    left: 192px;
+}
+.headrit{
+    text-align: right;
+    position: relative; bottom: 900px;
+    right: 380px;
+}
+.wtp{
+    color: #000080;
+    font-size: 45px;
+}
+.cyaol{
+    color: rgb(0, 0, 100);
+    position: relative; right: 50px;
+    font-size: 20px;
+    position: relative; bottom: 10px;
+}
+.tybp{
+    position: relative; right: 151px;
+}
+.logsign{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    justify-content: right;
+    position: relative; bottom: 895px;
+    right: 386px;
+}
+.signupp{
+    grid-column: 1;
+    border-radius: 15px;
+    padding: 12px 75px 12px 75px;
+    position: relative; left: 20px;
+    border: 1px solid #000080;
+    cursor: pointer;
+}
+.loginn{
+    grid-column: 2;
+    border-radius: 15px;
+    padding: 12px 75px 12px 75px;
+    border: 1px solid #000080;
+    color: #000080;
+    cursor: pointer;
+}
+.signupp.active{
+    color: rgba(255, 255, 255);
+    background: #000080;
+}
+.loginn.active{
+    color: rgba(255, 255, 255);
+    background: #000080;
+}
