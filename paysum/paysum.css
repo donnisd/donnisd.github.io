@@ -137,13 +137,13 @@
 .paysucc{
     display: flex;
     justify-content: right;
-    position: relative; bottom: 2160px;
+    position: relative; bottom: 2185px;
     right: 495px;
 }
 .datbdl{
     display: flex;
     justify-content: right;
-    position: relative; bottom: 2170px;
+    position: relative; bottom: 2195px;
     right: 115px;
 }
 .mageelog{
