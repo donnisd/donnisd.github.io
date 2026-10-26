@@ -743,6 +743,7 @@
     display: flex;
     margin: 0 auto;
     position: relative; top: 65px;
+    right: 15px;
 }
 .gdd{
     text-align: center;
@@ -754,6 +755,7 @@
 .febn{
     text-align: center;
     position: relative; top: 75px;
+    right: 15px;
     font-size: 16px;
     color: rgba(98, 100, 102, 1);
 }
