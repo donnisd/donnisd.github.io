@@ -123,13 +123,13 @@
     margin-left: auto;
     border-radius: 50%;
     position: relative; bottom: 1420px;
-    right: 150px;
+    right: 145px;
 }
 .magee{
     display: flex;
     justify-content: right;
     position: relative; bottom: 1952px;
-    right: 232px;
+    right: 227px;
 }
 .magee img:hover{
     transform: translateY(-20px);
@@ -138,13 +138,13 @@
     display: flex;
     justify-content: right;
     position: relative; bottom: 2160px;
-    right: 490px;
+    right: 485px;
 }
 .datbdl{
     display: flex;
     justify-content: right;
     position: relative; bottom: 2170px;
-    right: 110px;
+    right: 105px;
 }
 .mageelog{
     height: 555px;
