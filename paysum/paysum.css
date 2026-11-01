@@ -1423,7 +1423,7 @@ body{
     display: block;
 }
 .navdn::after{
-    left: -47.5px;
+    left: -45.5px;
     height: 170px;
     width: 125%;
 }
@@ -1510,7 +1510,7 @@ body{
 .utpa{
     grid-column: 1;
     position: relative; top: 55px;
-    left: -5px;
+    left: -15px;
 }
 .cpy,
 .epee,
@@ -1546,7 +1546,7 @@ footer{
 }
 .endd{
     font-size: 7px;
-    right: 40px;
+    right: 30px;
     bottom: 55px;
 }
 }
