@@ -1624,6 +1624,7 @@ footer{
     right: 30px;
     bottom: 55px;
 }
+}
 .reveal{
     opacity: 0;
     transform: translateY(40px);
@@ -1632,7 +1633,6 @@ footer{
 .reveal.show{
     opacity: 1;
     transform: translateY(0);
-}
 }
 
 
