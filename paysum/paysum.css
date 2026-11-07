@@ -1240,7 +1240,7 @@ body{
 .allsrvs{
     grid-template-columns: repeat(1, 300px);
     position: relative; bottom: 335px;
-    left: 0px;
+    left: 5px;
 }
 .airlog,
 .dattlog,
