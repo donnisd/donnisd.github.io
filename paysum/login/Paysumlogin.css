@@ -116,6 +116,7 @@ body{
     height: 30px;
     position: relative; top: 47px;
     left: 147px;
+    border-radius: 12px;
 }
 .paysmm{
     font-size: 27px;
